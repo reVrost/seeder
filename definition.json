@@ -1,16 +1,14 @@
 {
-    "product" : {
-        "id": "uuid",
+    "products" : {
         "name" : "Pharmacy.FullDrug",
-        "gst_code" : "string",
-        "carton_size" : "integer",
-        "soh" : "integer",
-        "cost" : "currency",
-        "sell_price" : "currency"
+        "gst_code" : "String",
+        "carton_size" : "Number.Tenth",
+        "soh" : "Number.Tenth",
+        "cost" : "Number.Hundredth",
+        "sell_price" : "Number.Hundredth"
     },
 
-     "customer" : {
-        "id": "uuid",
+     "customers" : {
         "username" : "pharmacy.fulldrug",
         "first_name" : "string",
         "last_name" : "integer",
